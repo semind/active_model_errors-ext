@@ -1,29 +1,6 @@
-# ActiveModelErrors::Ext
+# ActiveModel Extension
 
-TODO: Write a gem description
+  gem 'active_model_errors-ext', :github => 'semind/active_model_errors-ext'
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'active_model_errors-ext'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install active_model_errors-ext
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+ActiveModel::Errorsにattributesをkey, valueにattributeのエラーの配列を格納したHashを返す
+full_hash_messagesメソッドを追加します。
